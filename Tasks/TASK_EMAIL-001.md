@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - 참조: REF-13 — Resend API (이메일 전송)
 - 환경 변수: [`/TASKs/TASK_INFRA-004.md`](./TASK_INFRA-004.md) — RESEND_API_KEY
 - 위험 요소: RISK-09 — Resend 100통/일 무료 한도
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — EMAIL-001
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — EMAIL-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] 패키지 설치: `npm install resend`

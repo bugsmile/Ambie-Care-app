@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation
 - 기능 요구사항: REQ-FUNC-017 — 이상 징후 감지 (체류 시간 > 평균 +50%)
 - 선행 태스크: [`/TASKs/TASK_PIPE-001.md`](./TASK_PIPE-001.md) — generateDailyReport 기반 구조
 - 선행 태스크: [`/TASKs/TASK_PIPE-003.md`](./TASK_PIPE-003.md) — 화장실 방문 그룹핑 로직 재사용
 - 후속 연동: [`/TASKs/TASK_AI-004.md`](./TASK_AI-004.md) — 이상 징후 AI 설명 생성
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — PIPE-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — PIPE-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/report/anomaly-detection.ts` 파일 생성 — 순수 계산 함수로 분리

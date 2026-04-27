@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - 제약사항: CON-13 — Vercel Hobby Cron Job 1일 1회 제한
 - 제약사항: DEP-05 — Vercel Cron Job 의존
 - 기능 요구사항: REQ-FUNC-020 — 일간 보고서 자동 생성
 - Cron Job 설정: [`/TASKs/TASK_INFRA-003.md`](./TASK_INFRA-003.md) — vercel.json Cron 설정
 - 파이프라인: [`/TASKs/TASK_PIPE-001.md`](./TASK_PIPE-001.md) — generateDailyReport Server Action
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — PIPE-007
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — PIPE-007
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/api/cron/daily-report/route.ts` — Cron Job 트리거 API 라우트 생성

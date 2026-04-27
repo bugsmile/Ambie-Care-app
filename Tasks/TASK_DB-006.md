@@ -12,14 +12,14 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§9`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Environment Variables (DATABASE_URL)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + Supabase
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits (500MB DB)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`lib/prisma.ts`)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§9`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Environment Variables (DATABASE_URL)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + Supabase
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits (500MB DB)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`lib/prisma.ts`)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
 - Prisma Docs (Best Practices for Next.js): [https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices](https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices) (REF-09)
 - Supabase Docs: [https://supabase.com/docs](https://supabase.com/docs) (REF-10)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DB-006
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DB-006
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] Supabase Free 프로젝트 생성 (supabase.com 대시보드)

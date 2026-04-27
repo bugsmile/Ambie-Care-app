@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-13`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Hobby Limits (Cron 1/day)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#DEP-05`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Cron Jobs 의존성
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Wellness Report Generation Sequence
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — `vercel.json` 위치 확인
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-13`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Hobby Limits (Cron 1/day)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#DEP-05`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Cron Jobs 의존성
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Wellness Report Generation Sequence
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — `vercel.json` 위치 확인
 - Vercel Cron Jobs Docs: [https://vercel.com/docs/cron-jobs](https://vercel.com/docs/cron-jobs) (REF-12)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — INFRA-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — INFRA-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] 프로젝트 루트에 `vercel.json` 파일 생성

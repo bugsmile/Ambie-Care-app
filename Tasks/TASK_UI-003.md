@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`app/(admin)/`)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Client Apps (B2B Dashboard)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`app/(admin)/`)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Client Apps (B2B Dashboard)
 - 인증: [`/TASKs/TASK_AUTH-001.md`](./TASK_AUTH-001.md) — NextAuth.js JWT + role 필드
 - Guardian Layout 참조: [`/TASKs/TASK_UI-002.md`](./TASK_UI-002.md) — 유사 구조
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — UI-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — UI-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/(admin)/layout.tsx` — Admin Layout Server Component 생성

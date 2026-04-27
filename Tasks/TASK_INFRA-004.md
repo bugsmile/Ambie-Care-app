@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§9`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Environment Variables (8 Variables)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Model Swap Strategy
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`.env.local`, `.env.example` 위치)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — INFRA-004
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§9`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Environment Variables (8 Variables)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Model Swap Strategy
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`.env.local`, `.env.example` 위치)
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — INFRA-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `.env.example` 파일 생성 — 8개 환경 변수 키 + 설명 주석 + 샘플 값(placeholder) 포함

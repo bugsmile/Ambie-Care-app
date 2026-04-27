@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Heartbeat / Offline Detection
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Heartbeat / Offline Detection
 - 기능 요구사항: REQ-FUNC-008 — 15분 오프라인 시 Guardian 이메일 알림 (1회)
 - 이메일 유틸리티: [`/TASKs/TASK_EMAIL-001.md`](./TASK_EMAIL-001.md) — lib/email.ts sendEmail()
 - 선행 태스크: [`/TASKs/TASK_HB-004.md`](./TASK_HB-004.md) — INACTIVE 상태 변경 트리거
 - 데이터 모델: [`/TASKs/TASK_DB-001.md`](./TASK_DB-001.md) — SensorDevice (status, lastHeartbeatAt)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — EMAIL-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — EMAIL-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/email.ts`에 `sendOfflineAlertEmail(deviceId: string, lastHeartbeatAt: Date): Promise<void>` 함수 구현

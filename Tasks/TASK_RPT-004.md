@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`components/reports/`)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`components/reports/`)
 - 데이터 모델: [`/TASKs/TASK_DB-005.md`](./TASK_DB-005.md) — DailyReport 모델 필드
 - API 계약: [`/TASKs/TASK_API-002.md`](./TASK_API-002.md) — Daily Report Response DTO
 - 사용 페이지: [`/TASKs/TASK_RPT-002.md`](./TASK_RPT-002.md) — Guardian 홈 대시보드
 - 사용 페이지: [`/TASKs/TASK_RPT-003.md`](./TASK_RPT-003.md) — 일간 보고서 상세 페이지
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — RPT-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — RPT-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `components/reports/daily-report-card.tsx` 파일 생성

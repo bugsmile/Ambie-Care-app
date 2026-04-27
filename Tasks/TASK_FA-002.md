@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #2 updateFalseAlarmFlag
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #2 updateFalseAlarmFlag
 - 기능 요구사항: REQ-FUNC-005 — 거짓 경보 피드백
 - API 호출처: [`/TASKs/TASK_FA-001.md`](./TASK_FA-001.md) — POST /api/events/[eventId]/false-alarm
 - API 계약: [`/TASKs/TASK_API-008.md`](./TASK_API-008.md) — Server Action 인터페이스 정의
 - 데이터 모델: [`/TASKs/TASK_DB-002.md`](./TASK_DB-002.md) — WellnessEvent.isFalseAlarm 필드
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — FA-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — FA-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/actions/events.ts` 파일에 `updateFalseAlarmFlag` 함수 추가 (기존 `createWellnessEvent`와 동일 파일)

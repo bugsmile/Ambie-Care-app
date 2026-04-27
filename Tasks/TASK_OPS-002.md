@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Heartbeat / Offline Detection
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Heartbeat / Offline Detection
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - 비기능 요구사항: REQ-NF-007 — 오프라인 ≥10% 시 Slack 운영 알림
 - Webhook 유틸리티: [`/TASKs/TASK_OPS-001.md`](./TASK_OPS-001.md) — lib/slack.ts
 - Heartbeat 로직: [`/TASKs/TASK_HB-003.md`](./TASK_HB-003.md) — 오프라인 디바이스 식별
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — OPS-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — OPS-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `HB-003` Heartbeat 체크 로직 내 오프라인 비율 계산 추가:

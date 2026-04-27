@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Seed Script 사양
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data (JSON)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — `prisma/seed.ts` 위치
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#NEW-06`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock Data Generator 역량
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — MOCK-001
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Seed Script 사양
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data (JSON)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — `prisma/seed.ts` 위치
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#NEW-06`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock Data Generator 역량
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — MOCK-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `prisma/seed.ts` 파일 생성

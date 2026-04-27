@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #3: POST `/api/events/[eventId]/false-alarm`
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #2: `updateFalseAlarmFlag`
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent.isFalseAlarm 필드
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-005`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — False Alarm 피드백 기능
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-014`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF: ≤ 2 불만/집/월
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — API-005
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #3: POST `/api/events/[eventId]/false-alarm`
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #2: `updateFalseAlarmFlag`
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent.isFalseAlarm 필드
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-005`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — False Alarm 피드백 기능
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-014`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF: ≤ 2 불만/집/월
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — API-005
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] URL 파라미터 규격: `eventId` — WellnessEvent.id (cuid)

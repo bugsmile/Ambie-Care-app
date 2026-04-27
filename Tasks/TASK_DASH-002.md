@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Client Apps (B2B Dashboard)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 1 Core UI
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Client Apps (B2B Dashboard)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 1 Core UI
 - 기능 요구사항: REQ-FUNC-011 — Traffic Light 다중 침대 모니터링
 - API: [`/TASKs/TASK_DASH-001.md`](./TASK_DASH-001.md) — GET /api/dashboard/status
 - 컴포넌트: [`/TASKs/TASK_DASH-004.md`](./TASK_DASH-004.md) — traffic-light-card 컴포넌트
 - 레이아웃: [`/TASKs/TASK_UI-003.md`](./TASK_UI-003.md) — Admin Layout
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DASH-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DASH-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/(admin)/dashboard/page.tsx` 파일 생성 (Server Component 기본, Polling은 Client Component로 분리)

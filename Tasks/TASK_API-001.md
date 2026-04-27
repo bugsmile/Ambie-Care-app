@@ -12,14 +12,14 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #1: POST `/api/events/ingest` (Phase 0)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #1: `createWellnessEvent`
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 필드
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock Event Generation (mock=true 파라미터)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Report Generation Sequence (이벤트 수집 시작점)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — API-001
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #1: POST `/api/events/ingest` (Phase 0)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #1: `createWellnessEvent`
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 필드
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock Event Generation (mock=true 파라미터)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Report Generation Sequence (이벤트 수집 시작점)
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — API-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] Request DTO 타입 정의 (`types/api.ts` 또는 `types/events.ts`):

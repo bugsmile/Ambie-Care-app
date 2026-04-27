@@ -13,9 +13,9 @@ assignees: ''
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
 - API Spec: [`/TASKs/TASK_API-001.md`](./TASK_API-001.md) — DTO 및 에러 코드 명세
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #1
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — `mock=true` 관련 사양
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — EVT-001
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #1
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — `mock=true` 관련 사양
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — EVT-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/api/events/ingest/route.ts` 파일 생성
@@ -59,6 +59,13 @@ assignees: ''
 - [ ] API Key 인증이 올바르게 동작하는가?
 - [ ] `mock=true` 분기가 포함되었는가?
 - [ ] `createWellnessEvent` Server Action 연동이 완료되었는가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** Route Handler와 Server Action의 책임을 분리하고 입력 검증, FK 무결성, 저장 결과 타입을 명확히 한다.
+- **추가 Edge Cases:** 중복 이벤트, 존재하지 않는 deviceId, 잘못된 timestamp, confidenceScore 경계값, Prisma 예외를 포함한다.
+- **검증 증거:** API 단위 테스트와 Prisma 통합 테스트를 실행하고 생성된 eventId와 실패 응답 형태를 확인한다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** API-001 (명세), EVT-002 (Server Action 구현)

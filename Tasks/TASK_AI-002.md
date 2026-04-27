@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Integration, Fallback 정책
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prompt Structure
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #4
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Integration, Fallback 정책
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prompt Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #4
 - API 계약: [`/TASKs/TASK_API-006.md`](./TASK_API-006.md) — Request/Response DTO + Fallback 규격
 - AI 설정: [`/TASKs/TASK_AI-001.md`](./TASK_AI-001.md) — lib/ai.ts getAIModel()
 - 인증: [`/TASKs/TASK_AUTH-001.md`](./TASK_AUTH-001.md) — NextAuth.js JWT
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AI-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AI-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/api/ai/wellness-summary/route.ts` 파일 생성

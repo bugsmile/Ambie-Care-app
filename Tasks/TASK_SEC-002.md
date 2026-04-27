@@ -14,7 +14,7 @@ assignees: ''
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
 - 관련 스키마: [`/TASKs/TASK_DB-001.md`](./TASK_DB-001.md) ~ [`/TASKs/TASK_DB-005.md`](./TASK_DB-005.md) — Prisma 모델
 - SRS 섹션: §7.2 Privacy Requirements, NFR-SEC-002 (PII 최소화)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — SEC-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — SEC-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] Prisma 스키마 (`schema.prisma`) PII 필드 목록 검토:
@@ -51,6 +51,19 @@ assignees: ''
 - [ ] Prisma 스키마 PII 필드 0건 확인?
 - [ ] API 응답 email 마스킹 처리?
 - [ ] CI PII 키워드 감지 규칙 추가?
+- [ ] 품질 보강 기준의 추가 Edge Cases와 검증 증거가 작업 결과에 기록되었는가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** 보안 요구사항을 수동 확인에만 두지 않고 정적 검사, CI 게이트, 리뷰 체크리스트로 연결한다.
+- **추가 Edge Cases:** 오탐/미탐 키워드, 마스킹 누락, 권한 없는 접근, secret 노출, 로그 내 민감정보를 포함한다.
+- **검증 증거:** 검색 명령 결과, CI 로그, 보안 체크리스트 완료 여부를 PR 또는 작업 로그에 첨부한다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
+- **리뷰 체크포인트:**
+  - 구현 파일 경로가 Task Breakdown과 일치하는지 확인한다.
+  - 실패 케이스가 Acceptance Criteria 또는 테스트에 반영되었는지 확인한다.
+  - SRS 금지어 및 PII 노출 규칙을 재확인한다.
+  - 외부 서비스 의존성이 mock/fallback으로 검증 가능한지 확인한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** TASK_DB-001~005

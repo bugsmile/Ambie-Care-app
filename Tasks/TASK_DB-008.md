@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-017`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 데이터 보존: Hot 30일, 자동 삭제
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-015`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 검색 가능한 이벤트 로그 유지 (30일 범위)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free 500MB 제한
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#ASM-08`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 50 디바이스 × 30일 데이터 500MB 이내 가정
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DB-008
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-017`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 데이터 보존: Hot 30일, 자동 삭제
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-015`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 검색 가능한 이벤트 로그 유지 (30일 범위)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free 500MB 제한
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#ASM-08`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 50 디바이스 × 30일 데이터 500MB 이내 가정
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DB-008
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] WellnessEvent 30일 초과 데이터 삭제 Prisma 쿼리 작성:

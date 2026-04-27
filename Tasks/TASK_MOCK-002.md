@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock WellnessEvent 사양
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 필드
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#GAP-10`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock 데이터 의존 리스크
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — MOCK-002
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock WellnessEvent 사양
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 필드
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#GAP-10`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock 데이터 의존 리스크
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — MOCK-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `prisma/seed.ts`에 WellnessEvent 생성 함수 추가

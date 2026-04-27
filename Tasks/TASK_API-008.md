@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — MVP Core Server Actions (4개)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — `app/actions/events.ts`, `reports.ts`, `devices.ts`
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-07`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Actions / Route Handlers 전용
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1~§6.2.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 5개 모델 필드 참조
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — API-008
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — MVP Core Server Actions (4개)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — `app/actions/events.ts`, `reports.ts`, `devices.ts`
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-07`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Actions / Route Handlers 전용
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1~§6.2.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 5개 모델 필드 참조
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — API-008
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] **SA #1: `createWellnessEvent`** (`app/actions/events.ts`) 타입 정의:

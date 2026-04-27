@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (5 Models)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + Supabase
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits (500MB)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1~§6.2.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 전체 데이터 모델 상세
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (5 Models)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + Supabase
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits (500MB)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1~§6.2.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 전체 데이터 모델 상세
 - 선행 태스크: TASK_DB-001 ~ TASK_DB-006
 - Prisma Docs (Migrate): [https://www.prisma.io/docs/concepts/components/prisma-migrate](https://www.prisma.io/docs/concepts/components/prisma-migrate) (REF-09)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DB-007
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DB-007
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `prisma/schema.prisma` 전체 스키마 최종 검토 — 5개 모델, 관계, 인덱스, 제약조건 완전성 확인

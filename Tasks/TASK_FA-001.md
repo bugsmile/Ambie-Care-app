@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #3
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF Sequence: False Alarm Feedback
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #3
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF Sequence: False Alarm Feedback
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - API 계약: [`/TASKs/TASK_API-005.md`](./TASK_API-005.md) — Request/Response DTO + JWT 인증 규격
 - 기능 요구사항: REQ-FUNC-005 — 거짓 경보 피드백
 - 인증: [`/TASKs/TASK_AUTH-001.md`](./TASK_AUTH-001.md) — NextAuth.js JWT
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — FA-001
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — FA-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/api/events/[eventId]/false-alarm/route.ts` 파일 생성

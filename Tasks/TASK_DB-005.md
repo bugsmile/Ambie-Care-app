@@ -12,16 +12,16 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (DailyReport)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — DailyReport 데이터 모델 상세
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Wellness Report Generation Sequence
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #3: `generateDailyReport`
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Gemini AI Integration (aiSummary 필드)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-016~020`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — FR-05: Daily Wellness Notification Pipeline
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prisma + SQLite/Supabase 제약
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock DailyReport 사양
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (DailyReport)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — DailyReport 데이터 모델 상세
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Daily Wellness Report Generation Sequence
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Server Action #3: `generateDailyReport`
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Gemini AI Integration (aiSummary 필드)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-016~020`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — FR-05: Daily Wellness Notification Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prisma + SQLite/Supabase 제약
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock DailyReport 사양
 - Prisma ORM Docs: [https://www.prisma.io/docs](https://www.prisma.io/docs) (REF-09)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DB-005
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DB-005
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `prisma/schema.prisma`에 `DailyReport` 모델 추가

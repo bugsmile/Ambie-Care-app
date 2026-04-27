@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 1 B2B Dashboard
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 1 B2B Dashboard
 - 기능 요구사항: REQ-FUNC-015 — 30일 이내 이벤트 로그 역추적 조회
 - 데이터 모델: [`/TASKs/TASK_DB-002.md`](./TASK_DB-002.md) — WellnessEvent (timestamp index)
 - 데이터 모델: [`/TASKs/TASK_DB-008.md`](./TASK_DB-008.md) — 30일 초과 데이터 자동 삭제
 - 인증: [`/TASKs/TASK_AUTH-001.md`](./TASK_AUTH-001.md) — NextAuth.js
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DASH-005
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DASH-005
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/api/events/route.ts` GET 핸들러 생성 (또는 기존 이벤트 라우트에 쿼리 파라미터 추가)

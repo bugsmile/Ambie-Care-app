@@ -12,10 +12,10 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Recommended Project Structure
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Recommended Project Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
 - 의존 태스크: [`/TASKs/TASK_INFRA-001.md`](./TASK_INFRA-001.md) — Next.js + shadcn/ui 초기화
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — UI-001
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — UI-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `app/layout.tsx` — Root Layout 구현:

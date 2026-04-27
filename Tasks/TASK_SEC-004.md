@@ -15,7 +15,7 @@ assignees: ''
 - 관련 인증: [`/TASKs/TASK_AUTH-002.md`](./TASK_AUTH-002.md) — JWT 역할 클레임
 - 관련 인증: [`/TASKs/TASK_AUTH-003.md`](./TASK_AUTH-003.md) — 미들웨어 보호
 - SRS 섹션: §4.3 Authorization, §7.4 RBAC, NFR-SEC-004
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — SEC-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — SEC-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `middleware.ts` RBAC 로직 구현:
@@ -54,13 +54,20 @@ assignees: ''
 - **미들웨어 위치:** `src/middleware.ts` (Next.js App Router 규격)
 - **JWT 추출:** `next-auth/jwt` `getToken()` 사용
 - **성능:** 미들웨어 실행 < 5ms (Edge Runtime)
-- **공개 경로:** `/login`, `/api/events/ingest`, `/api/heartbeat`, `/_next/` 제외
+- **공개/별도 인증 경로:** `/login`, `/api/events/ingest`, `/api/devices/[deviceId]/heartbeat`, `/_next/` 제외. 단, 이벤트 수집/하트비트 API는 미들웨어 bypass 후 각 Route Handler의 API Key 인증을 반드시 수행
 
 ## :checkered_flag: Definition of Done (DoD)
 - [ ] GUARDIAN/ADMIN 역할별 라우트 접근 제어 동작?
 - [ ] 미인증 리다이렉트, 역할 불일치 403 처리?
 - [ ] 공개 경로 bypass 동작?
 - [ ] TEST-008 인증 테스트와 연계 확인?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** 보안 요구사항을 수동 확인에만 두지 않고 정적 검사, CI 게이트, 리뷰 체크리스트로 연결한다.
+- **추가 Edge Cases:** 오탐/미탐 키워드, 마스킹 누락, 권한 없는 접근, secret 노출, 로그 내 민감정보를 포함한다.
+- **검증 증거:** 검색 명령 결과, CI 로그, 보안 체크리스트 완료 여부를 PR 또는 작업 로그에 첨부한다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** TASK_AUTH-002, TASK_AUTH-003

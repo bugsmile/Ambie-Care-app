@@ -12,17 +12,17 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #5: GET `/api/dashboard/status` (Phase 1)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-011`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Traffic Light 다중 침대 모니터링 UI
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — B2B Monitoring Dashboard (API Polling 30s)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#GAP-01`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Real-time gap → API Polling 대안
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — SensorDevice 모델 (status, lastHeartbeatAt)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 (latestEvent 정보)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Fall Detection → Dashboard 업데이트 Sequence
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT 인증
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — API-003
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #5: GET `/api/dashboard/status` (Phase 1)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-011`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Traffic Light 다중 침대 모니터링 UI
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — B2B Monitoring Dashboard (API Polling 30s)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#GAP-01`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Real-time gap → API Polling 대안
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — SensorDevice 모델 (status, lastHeartbeatAt)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — WellnessEvent 모델 (latestEvent 정보)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Fall Detection → Dashboard 업데이트 Sequence
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT 인증
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — API-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] Response DTO 타입 정의 (`types/api.ts` 또는 `types/dashboard.ts`):

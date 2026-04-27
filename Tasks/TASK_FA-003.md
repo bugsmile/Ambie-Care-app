@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF Sequence: False Alarm Feedback
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — PMF Sequence: False Alarm Feedback
 - 기능 요구사항: REQ-FUNC-005 — 거짓 경보 피드백 UI
 - API: [`/TASKs/TASK_FA-001.md`](./TASK_FA-001.md) — POST /api/events/[eventId]/false-alarm
 - 페이지: [`/TASKs/TASK_RPT-002.md`](./TASK_RPT-002.md) — Guardian 홈 대시보드
 - 페이지: [`/TASKs/TASK_RPT-003.md`](./TASK_RPT-003.md) — 일간 보고서 상세 페이지
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — FA-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — FA-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `components/reports/false-alarm-button.tsx` — Client Component(`"use client"`) 생성

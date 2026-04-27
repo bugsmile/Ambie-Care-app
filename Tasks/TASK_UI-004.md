@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`components/shared/`)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure (`components/shared/`)
 - 디바이스 상태 카드: [`/TASKs/TASK_DASH-004.md`](./TASK_DASH-004.md) — TrafficLightCard (상위 컴포넌트)
 - API 계약: [`/TASKs/TASK_API-003.md`](./TASK_API-003.md) — device status 타입
 - 데이터 모델: [`/TASKs/TASK_DB-001.md`](./TASK_DB-001.md) — SensorDevice.status 필드
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — UI-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — UI-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `components/shared/device-status-indicator.tsx` 파일 생성

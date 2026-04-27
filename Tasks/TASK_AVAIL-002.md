@@ -16,7 +16,7 @@ assignees: ''
 - 관련 인프라: [`/TASKs/TASK_INFRA-002.md`](./TASK_INFRA-002.md) — Supabase 설정
 - 관련 태스크: [`/TASKs/TASK_AVAIL-001.md`](./TASK_AVAIL-001.md) — UptimeRobot 모니터링
 - SRS 섹션: §9.2 Cost Constraints, NFR-AVAIL-002
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AVAIL-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AVAIL-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] **Vercel Hobby 무료 한계 모니터링 항목:**

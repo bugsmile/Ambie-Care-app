@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation
 - 기능 요구사항: REQ-FUNC-019 — 화장실 방문 횟수 카운팅 + 이상치 필터링
 - 선행 태스크: [`/TASKs/TASK_PIPE-001.md`](./TASK_PIPE-001.md) — generateDailyReport 기반 구조
 - 데이터 모델: [`/TASKs/TASK_DB-002.md`](./TASK_DB-002.md) — WellnessEvent (eventType: ACTIVITY_ALERT, WELLNESS_SCORE)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — PIPE-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — PIPE-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/report/bathroom-count.ts` 파일 생성 — 순수 계산 함수로 분리

@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Fallback 정책 (NEW-01)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prompt Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Fallback 정책 (NEW-01)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Prompt Structure
 - 선행 태스크: [`/TASKs/TASK_AI-002.md`](./TASK_AI-002.md) — generateText() 호출 로직
 - 파이프라인: [`/TASKs/TASK_PIPE-006.md`](./TASK_PIPE-006.md) — DailyReport 저장 (aiSummary null)
 - 파이프라인: [`/TASKs/TASK_PIPE-001.md`](./TASK_PIPE-001.md) — generateDailyReport 오케스트레이터
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AI-003
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AI-003
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/ai.ts`에 `generateWellnessSummary(metrics: ReportMetrics): Promise<string | null>` 공유 함수 추출

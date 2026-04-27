@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Integration Overview
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Model Configuration
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Integration Overview
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Model Configuration
 - 제약사항: CON-10 (Gemini API 무료 티어), CON-11 (AI_MODEL 환경변수)
 - 환경 변수: [`/TASKs/TASK_INFRA-004.md`](./TASK_INFRA-004.md) — GOOGLE_GENERATIVE_AI_API_KEY, AI_MODEL
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AI-001
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AI-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] 패키지 설치: `npm install ai @ai-sdk/google`

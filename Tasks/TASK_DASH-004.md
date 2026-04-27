@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
 - 기능 요구사항: REQ-FUNC-011 — Traffic Light 시각화
 - API Response DTO: [`/TASKs/TASK_API-003.md`](./TASK_API-003.md) — devices[] 항목 타입
 - 페이지 연동: [`/TASKs/TASK_DASH-002.md`](./TASK_DASH-002.md) — Dashboard UI
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DASH-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DASH-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `components/dashboard/traffic-light-card.tsx` 파일 생성

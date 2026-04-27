@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
 - 기능 요구사항: FR-08, REQ-FUNC-023 — 대시보드 필터
 - 의존 페이지: [`/TASKs/TASK_DASH-002.md`](./TASK_DASH-002.md) — B2B Dashboard UI
 - 컴포넌트: [`/TASKs/TASK_DASH-004.md`](./TASK_DASH-004.md) — TrafficLightCard
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — ENH-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — ENH-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `components/dashboard/device-filter.tsx` — Client Component 생성
@@ -61,6 +61,13 @@ assignees: ''
 - [ ] 필터 상태가 URL 쿼리 파라미터에 동기화되는가?
 - [ ] 필터 초기화 버튼이 동작하는가?
 - [ ] TypeScript 타입 오류 0건, ESLint 경고 0건인가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** 필터 상태, URL/query 동기화, 빈 결과 상태, 접근성 라벨을 구현 범위에 포함한다.
+- **추가 Edge Cases:** 필터 0건, 다중 필터 조합, 모바일 폭, 새로고침 후 상태 복원, 권한 없는 사용자를 검증한다.
+- **검증 증거:** 컴포넌트 테스트, 브라우저 수동 확인, 주요 viewport 스크린샷을 작업 결과에 남긴다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** TASK_DASH-002 (Dashboard UI — devices 배열 데이터), TASK_DASH-004 (TrafficLightCard)

@@ -16,7 +16,7 @@ assignees: ''
 - 테스트 대상: [`/TASKs/TASK_EMAIL-003.md`](./TASK_EMAIL-003.md) — 오프라인 알림 + 중복 방지
 - 테스트 대상: [`/TASKs/TASK_EMAIL-001.md`](./TASK_EMAIL-001.md) — lib/email.ts Resend 설정
 - SRS 섹션: §5.8 Email Notifications, NFR-NOTIF-001
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — TEST-016
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — TEST-016
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] 테스트 파일: `__tests__/email/notifications.test.ts`
@@ -54,6 +54,19 @@ assignees: ''
 - [ ] 발송/중복방지/오류처리 케이스 모두 구현?
 - [ ] 모든 테스트 GREEN?
 - [ ] Resend API 실제 호출 없음 확인?
+- [ ] 품질 보강 기준의 추가 Edge Cases와 검증 증거가 작업 결과에 기록되었는가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** 테스트 대상 함수/API, fixture, mock 범위, 성공/실패 판정 기준을 Given-When-Then과 1:1로 맞춘다.
+- **추가 Edge Cases:** 경계값, 빈 데이터, 권한 실패, 외부 API 실패, 시간 의존 로직의 deterministic clock을 포함한다.
+- **검증 증거:** 테스트 파일 경로, 실행 명령, 실패 시 재현 조건, coverage가 필요한 핵심 분기를 기록한다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
+- **리뷰 체크포인트:**
+  - 구현 파일 경로가 Task Breakdown과 일치하는지 확인한다.
+  - 실패 케이스가 Acceptance Criteria 또는 테스트에 반영되었는지 확인한다.
+  - SRS 금지어 및 PII 노출 규칙을 재확인한다.
+  - 외부 서비스 의존성이 mock/fallback으로 검증 가능한지 확인한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** TASK_EMAIL-001, TASK_EMAIL-002, TASK_EMAIL-003

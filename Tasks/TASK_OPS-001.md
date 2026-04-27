@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§8`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Project Structure
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - 기능 요구사항: REQ-NF-007 — 운영 이상 시 Slack/Discord 알림
 - 환경 변수: [`/TASKs/TASK_INFRA-004.md`](./TASK_INFRA-004.md) — SLACK_WEBHOOK_URL
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — OPS-001
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — OPS-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/slack.ts` 파일 생성
@@ -62,6 +62,13 @@ assignees: ''
 - [ ] `import 'server-only'`가 설정되었는가?
 - [ ] URL 미설정/전송 실패 시 에러 없이 `{ success: false }` 반환하는가?
 - [ ] TypeScript 타입 오류 0건, ESLint 경고 0건인가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** Webhook 설정, 메시지 포맷, 비밀값 보관, 실패 시 로깅/무시 정책을 분리해 정의한다.
+- **추가 Edge Cases:** Webhook URL 누락, 4xx/5xx 응답, 네트워크 실패, 중복 알림, 민감정보 포함 여부를 검증한다.
+- **검증 증거:** 로컬 mock webhook 또는 테스트 채널 수신 기록과 환경 변수 마스킹 확인 결과를 남긴다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** TASK_INFRA-004 (SLACK_WEBHOOK_URL 환경 변수)

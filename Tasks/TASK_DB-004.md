@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (UserDevice 조인 테이블)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — UserDevice 데이터 모델 상세
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + SQLite/Supabase (M:N → UserDevice 조인 테이블)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data (UserDevice 연결)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.6`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — ERD (UserDevice 조인 테이블)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — UserDevice 데이터 모델 상세
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-08`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-003: Prisma + SQLite/Supabase (M:N → UserDevice 조인 테이블)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sample Mock Data (UserDevice 연결)
 - Prisma ORM Docs (Many-to-many): [https://www.prisma.io/docs/concepts/components/prisma-schema/relations/many-to-many-relations](https://www.prisma.io/docs/concepts/components/prisma-schema/relations/many-to-many-relations) (REF-09)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — DB-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — DB-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `prisma/schema.prisma`에 `UserDevice` 모델 추가

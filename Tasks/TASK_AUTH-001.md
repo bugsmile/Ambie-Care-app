@@ -12,11 +12,11 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT Authentication (NextAuth.js)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-07`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-002: NextAuth.js for Next.js App Router
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#RISK-10`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Security misconfiguration risk
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock UserAccounts (guardian1, guardian2, admin)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AUTH-001
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT Authentication (NextAuth.js)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-07`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-002: NextAuth.js for Next.js App Router
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#RISK-10`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Security misconfiguration risk
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§14.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Mock UserAccounts (guardian1, guardian2, admin)
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AUTH-001
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] 패키지 설치: `npm install next-auth` (App Router 호환 버전 확인, 필요시 `@auth/prisma-adapter` 추가 검토이나 MVP는 Session DB 미사용)
@@ -61,6 +61,13 @@ assignees: ''
 - [ ] Prisma를 통한 Credentials 검증 로직이 포함되었는가?
 - [ ] JWT 및 Session Callback이 구현되었는가?
 - [ ] `next-auth.d.ts`를 통한 타입 확장이 완료되었는가?
+
+## :mag: Quality Supplement (보강 기준)
+- **식별 사유:** 자동 품질 점검에서 본문 밀도, AC/DoD 수, 제약조건 중 하나 이상이 기준선에 미달하여 보강 대상으로 분류됨.
+- **범위 명확화:** NextAuth 설정, UI 플로우, JWT role 처리의 경계를 분리해 인증 실패와 권한 실패를 서로 다른 결과로 검증한다.
+- **추가 Edge Cases:** 만료/변조 토큰, 잘못된 role, 빈 세션, 이미 로그인한 사용자의 로그인/회원가입 접근을 포함한다.
+- **검증 증거:** `npm run lint`, 인증 관련 unit/integration test, 보호 라우트 수동 점검 결과를 작업 코멘트에 남긴다.
+- **완료 품질 기준:** 구현 산출물, 테스트 산출물, SRS traceability가 모두 남아야 하며, DoD 체크는 코드/문서/실행 로그 중 하나의 근거로 확인 가능해야 한다.
 
 ## :construction: Dependencies & Blockers
 - **Depends on:** DB-003 (UserAccount 스키마), MOCK-001 (테스트용 사용자 데이터), INFRA-004 (환경 변수)

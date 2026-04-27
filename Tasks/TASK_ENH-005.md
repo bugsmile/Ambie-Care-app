@@ -12,10 +12,10 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
 - 비기능 요구사항: REQ-NF-014 (사용자 행동 추적), REQ-NF-015 (Analytics 이벤트)
 - 의존 태스크: [`/TASKs/TASK_INFRA-002.md`](./TASK_INFRA-002.md) — Vercel 배포 설정
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — ENH-005
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — ENH-005
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] **옵션 A: Vercel Analytics (권장)**

@@ -12,10 +12,10 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 3 Enhancements
 - GAP 분석: GAP-02 — PWA 전환 (모바일 네이티브 경험)
 - 의존 태스크: [`/TASKs/TASK_INFRA-001.md`](./TASK_INFRA-001.md) — Next.js 초기 설정
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — ENH-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — ENH-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `public/manifest.json` 파일 생성:

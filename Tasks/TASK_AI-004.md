@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — NEW-02 이상 징후 AI 설명
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — NEW-02 이상 징후 AI 설명
 - 기능 요구사항: REQ-FUNC-017 — 이상 징후 자연어 설명 생성
 - 선행 태스크: [`/TASKs/TASK_AI-001.md`](./TASK_AI-001.md) — lib/ai.ts getAIModel()
 - 선행 태스크: [`/TASKs/TASK_AI-002.md`](./TASK_AI-002.md) — generateText() 로직
 - 이상 징후 감지: [`/TASKs/TASK_PIPE-004.md`](./TASK_PIPE-004.md) — detectDwellTimeAnomaly() 반환값
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — AI-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — AI-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/ai.ts`에 `generateAnomalyExplanation(anomalyVisit: VisitGroup, avgDwellTime: number): Promise<string | null>` 함수 추가

@@ -12,12 +12,12 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Emergency Event
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.3.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Emergency Event
 - 기능 요구사항: REQ-FUNC-004 — 긴급 이벤트 감지 5분 이내 Guardian 알림
 - 이메일 유틸리티: [`/TASKs/TASK_EMAIL-001.md`](./TASK_EMAIL-001.md) — lib/email.ts sendEmail()
 - 이벤트 수집: [`/TASKs/TASK_EVT-001.md`](./TASK_EVT-001.md) — POST /api/events/ingest
 - 이벤트 수집: [`/TASKs/TASK_EVT-002.md`](./TASK_EVT-002.md) — createWellnessEvent Server Action
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — EMAIL-004
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — EMAIL-004
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/email.ts`에 `sendEmergencyAlertEmail(deviceId: string, event: WellnessEvent): Promise<void>` 함수 구현

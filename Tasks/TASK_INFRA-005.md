@@ -12,14 +12,14 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#RISK-07`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free 7일 비활성 pause 리스크
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-005`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Best Effort ~99% 가용성 목표
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#RISK-07`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free 7일 비활성 pause 리스크
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-14`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Supabase Free Limits
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-005`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Best Effort ~99% 가용성 목표
 - Supabase Free Tier Limits: [https://supabase.com/pricing](https://supabase.com/pricing) (REF-14)
 - UptimeRobot: [https://uptimerobot.com](https://uptimerobot.com)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — INFRA-005
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — INFRA-005
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 ### 옵션 A: UptimeRobot Free (권장)

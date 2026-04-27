@@ -12,13 +12,13 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation (알림 단계)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.4.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Sequence: Daily Report Generation (알림 단계)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.4`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 2 Pipeline
 - 기능 요구사항: REQ-FUNC-020 — 일간 보고서 완료 시 Guardian 이메일 알림
 - 이메일 유틸리티: [`/TASKs/TASK_EMAIL-001.md`](./TASK_EMAIL-001.md) — lib/email.ts sendEmail()
 - 파이프라인: [`/TASKs/TASK_PIPE-006.md`](./TASK_PIPE-006.md) — DailyReport 저장 완료 이후
 - 데이터 모델: [`/TASKs/TASK_DB-003.md`](./TASK_DB-003.md) — UserAccount (email, notificationPref)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — EMAIL-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — EMAIL-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] `lib/email.ts`에 `sendDailyReportEmail(deviceId: string, reportDate: string, reportId: string): Promise<void>` 함수 구현

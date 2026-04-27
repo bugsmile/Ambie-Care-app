@@ -12,14 +12,14 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #2: GET `/api/reports/daily/[deviceId]/[date]` (Phase 1)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.5`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — DailyReport 모델 필드
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-016~020`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — FR-05: Daily Wellness Report 기능 요구사항
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT 인증 (NextAuth.js)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Summary (aiSummary 필드)
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — API-002
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§3.3`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Route #2: GET `/api/reports/daily/[deviceId]/[date]` (Phase 1)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — API Endpoint List
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§6.2.5`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — DailyReport 모델 필드
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-FUNC-016~020`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — FR-05: Daily Wellness Report 기능 요구사항
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#REQ-NF-011`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — JWT 인증 (NextAuth.js)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§7.1`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — AI Summary (aiSummary 필드)
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-04`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — 금지어 네이밍 규칙
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — API-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] URL 파라미터 규격 정의:

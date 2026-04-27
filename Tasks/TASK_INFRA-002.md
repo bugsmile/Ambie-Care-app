@@ -12,14 +12,14 @@ assignees: ''
 
 ## :link: References (Spec & Context)
 > :bulb: AI Agent & Dev Note: 작업 시작 전 아래 문서를 반드시 먼저 Read/Evaluate 할 것.
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-12`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-007: Vercel Deployment
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-13`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Hobby Limits
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
-- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#NEW-03`](../SRS-Draft/SRS_V03(ENG_OPUS).md) — Rapid Deployment Cycle 신규 역량
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-12`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — C-TEC-007: Vercel Deployment
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#CON-13`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Vercel Hobby Limits
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§13.2`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Phase 0 Foundation
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#§15`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Free Tier Constraint Specification
+- SRS 문서: [`/SRS-Draft/SRS_V03(ENG_OPUS).md#NEW-03`](../../SRS-Draft/SRS_V03(ENG_OPUS).md) — Rapid Deployment Cycle 신규 역량
 - Vercel Platform Docs: [https://vercel.com/docs](https://vercel.com/docs) (REF-12)
 - Vercel Hobby Plan Limits: [https://vercel.com/docs/accounts/plans](https://vercel.com/docs/accounts/plans) (REF-15)
-- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](./SRS_V1_TASKS_list_OPUS.md) — INFRA-002
+- 태스크 리스트: [`/TASKs/SRS_V1_TASKS_list_OPUS.md`](../SRS_V1_TASKS_list_OPUS.md) — INFRA-002
 
 ## :white_check_mark: Task Breakdown (실행 계획)
 - [ ] GitHub Repository 생성 (Public 또는 Private) — `rooted-mvp` 저장소명
